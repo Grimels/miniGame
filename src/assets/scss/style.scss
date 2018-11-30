@@ -1,0 +1,20 @@
+@import "components/content";
+@import "components/label";
+
+@font-face {
+  font-family: "MyFont";
+  src: url("../fonts/BlackHanSans-Regular.ttf") format("ttf"), url("../fonts/SedgwickAve-Regular.ttf") format("ttf"),
+    url("../fonts/Unlock-Regular.ttf") format("ttf");
+}
+
+$image: url("../img/bg_img.jpg");
+
+body {
+  font-family: "MyFont";
+  text-align: center;
+  background: $image;
+}
+
+p {
+  background-color: white;
+}
